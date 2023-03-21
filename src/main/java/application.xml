@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<bean id="Finla" class="ustbatchno3.di_setterinjection.Roles">
+	<property name="charactername" value = "Finla"></property>
+	<property name="responsibility" value = "Sister"></property>
+</bean>
+<bean id="Finita" class="ustbatchno3.di_setterinjection.Roles">
+	<property name="charactername" value = "Finita"></property>
+	<property name="responsibility" value = "Elder sister"></property>
+</bean>
+<bean id="Treasa" class="ustbatchno3.di_setterinjection.Roles">
+	<property name="charactername" value = "Treasa"></property>
+	<property name="responsibility" value = "Mother"></property>
+</bean>
+</beans>
